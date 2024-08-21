@@ -79,7 +79,7 @@ const App: React.FC = () => {
           </Card>
         ))}
       </Container>
-      <FloatingButton variant="contained" color="primary" onClick={() => setIsModalOpen(true)}>
+      <FloatingButton variant="contained" color="error" onClick={() => setIsModalOpen(true)}>
         New Post
       </FloatingButton>
       <Modal
@@ -141,7 +141,7 @@ const App: React.FC = () => {
               </Box>
             )}
           />
-          <Button type="submit" variant="contained" color="primary">
+          <Button type="submit" variant="contained" color="error">
             Submit
           </Button>
         </form>
